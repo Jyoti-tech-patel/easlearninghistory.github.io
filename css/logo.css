@@ -1,0 +1,19 @@
+
+#div1{
+    border:solid black;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 40px;
+    height: 200px;
+    width: 400px;
+    background-image: conic-gradient(black,blue,green,rgb(65, 13, 65));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+
+}

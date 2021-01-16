@@ -1,0 +1,46 @@
+#wrapper{
+    border: 1px solid black;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+    
+}
+
+#one{
+       background-color: chartreuse;
+       opacity: 0.8;
+       height: 100px;
+       width: 100px;
+       display: inline-block;
+       position: relative;
+       z-index: 2;
+       top: 20px;
+       left: 20px;
+       
+       
+}
+#two{
+
+    background-color: red;
+    opacity: 0.8;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    left: -40px;
+   
+}
+#three{
+
+    background-color: blue;
+    opacity: 0.8;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    left: -100px;
+    
+}

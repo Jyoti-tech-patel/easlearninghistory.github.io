@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato',sans-serif;
+}
+
+.login_container{
+    position: relative;
+    height:  100vh;
+}
+
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url("main.png");
+    background-size: cover;
+    padding: 40px;
+    border-radius: 0;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+}
+
+.login-box h2{
+    margin: 0 0 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 0 ;
+    color: #ffffff;
+    text-align: left;
+}
+
+.login-box .user_box{
+       position: relative;
+}
+
+.login-box .user_box input{
+    width: 100px;
+}

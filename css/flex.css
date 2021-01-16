@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+  background-color: blueviolet;
+  height: 70vh; 
+  display: flex;
+  /* height: 400px; */
+  /* justify-content: flex-start;
+  /* align-content: flex-start; */
+}
+
+.flex-child{
+background-color: brown;
+margin: 20px;
+padding: 20px;
+width: 200px;
+
+}
+
+#one{
+    align-self: flex-start;
+}
+
+#two{
+  align-self: center;
+}
+
+#three{
+   align-self: flex-end;
+}

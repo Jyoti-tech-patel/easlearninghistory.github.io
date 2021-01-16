@@ -1,0 +1,59 @@
+/* #cover{
+        border: 2px solid red;
+        height: 200px;
+        width: 200px;
+        margin: 150px;
+}
+#contain{
+    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    transform: perspective(300px) translate3d(30px,50px,60px);
+    transform-origin: 20% 50%;
+}
+
+#wrap{
+    border: 2px solid blue;
+    background-color: blueviolet;
+    height: 80px;
+    width: 100px;
+    margin-left: 300px;
+    
+    display: inline-block;
+    transform:skewX(20deg);
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding:20px;
+   
+} */
+
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background: url("solar.png"),linear-gradient(to left,black,orange,red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+} */
+.logo{
+    height: 400px;
+    width: 400px;
+    
+    margin: auto;
+}
+.logo h1{
+    height: 400px;
+    width: 400px;
+    background-image: conic-gradient(from -20deg at 34% 68%, red 0deg,red 90deg,blue 90deg,blue 180deg,green 180deg,green 270deg,yellow 270deg,yellow 360deg);
+    font-size: 30em;
+    margin-top: auto;
+    padding-bottom: 50px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
